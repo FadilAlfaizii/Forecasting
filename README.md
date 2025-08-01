@@ -154,7 +154,6 @@ Feel free to contribute to this project by:
 ## 📧 Contact
 
 **Muhammad Fadil Alfaizi**  
-Student ID: 123450115  
 
 For questions or collaboration opportunities, please reach out via GitHub issues.
 
