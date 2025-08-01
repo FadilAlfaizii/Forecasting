@@ -32,22 +32,22 @@ This project demonstrates end-to-end time series analysis and forecasting capabi
 
 ## 📈 Analysis Components
 
-### 1. Data Loading & Exploration (Easy)
+### 1. Data Loading & Exploration
 - Load dataset from Excel file (9,994 rows × 21 columns)
 - Basic data preview and structure analysis
 - Descriptive statistics generation
 
-### 2. Summary Statistics (Easy)
+### 2. Summary Statistics
 - Comprehensive statistical overview
 - Data type identification
 - Initial data quality assessment
 
-### 3. Missing Value Analysis (Medium)
+### 3. Missing Value Analysis
 - Systematic missing data evaluation
 - Heatmap visualization of null values
 - Data completeness assessment
 
-### 4. Time Series Decomposition (Medium)
+### 4. Time Series Decomposition
 - **STL Decomposition** (Seasonal and Trend decomposition using Loess)
 - Separation into trend, seasonal, and residual components
 - Weekly aggregation with 52-week seasonal period
@@ -58,12 +58,12 @@ This project demonstrates end-to-end time series analysis and forecasting capabi
 - Strong annual seasonality with year-end peaks
 - Seasonal patterns indicating holiday-driven sales spikes
 
-### 5. Feature Engineering (Medium)
+### 5. Feature Engineering
 - **Temporal Features:** day, weekday, month, weekend indicators
 - **Holiday Features:** Black Friday, Christmas, Easter week indicators
 - **Business Context:** Integration of discount and quantity metrics
 
-### 6. SARIMAX Forecasting (Hard)
+### 6. SARIMAX Forecasting
 - **Automated parameter selection** using `auto_arima`
 - **Exogenous variables** integration (quantity, discount, holidays)
 - **Model:** SARIMAX(0,0,0)x(0,0,0)[52] - optimized for external features
@@ -71,7 +71,7 @@ This project demonstrates end-to-end time series analysis and forecasting capabi
 
 **Key Finding:** Model relies heavily on exogenous variables rather than ARIMA components, indicating that business features effectively capture temporal patterns.
 
-### 7. Prophet Forecasting (Hard)
+### 7. Prophet Forecasting
 - **Meta's Prophet** implementation with holiday effects
 - **Custom holiday definitions** (Black Friday, US holidays)
 - **Multiple regressors** (quantity, discount, month)
@@ -150,10 +150,6 @@ Feel free to contribute to this project by:
 - Adding new visualization techniques
 - Implementing additional forecasting models
 - Enhancing feature engineering approaches
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
